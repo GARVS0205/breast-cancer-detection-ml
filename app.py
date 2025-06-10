@@ -13,7 +13,9 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(current_dir, "breast_cancer_model.pkl")
 features_path = os.path.join(current_dir, "selected_features.pkl")
 scaler_path = os.path.join(current_dir, "scaler.pkl")
-dataset_path = os.path.join(current_dir, "Cancer Dataset.csv")
+dataset_path = r"C:\Users\garvs\breast_cancer_detection\Cancer Dataset.csv"
+
+
 
 # ✅ Check for required files
 if not all(os.path.exists(path) for path in [model_path, features_path, scaler_path, dataset_path]):
