@@ -39,5 +39,5 @@ The best-performing model (**XGBoost**) is deployed as an interactive web applic
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/breast-cancer-classification.git
+   git clone https://github.com/GARVS0205/breast-cancer-classification.git
    cd breast-cancer-classification
